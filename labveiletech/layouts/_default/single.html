@@ -1,0 +1,59 @@
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "content" }}
+  {{ if eq .Params.layout "about" }}
+    <section class="container page">
+      <article>
+        <header>
+          <h1 class="title">
+            <a class="title-link" href="{{ .Permalink | safeURL }}">
+              {{ .Title }}
+            </a>
+          </h1>
+        </header>
+
+        <div class="about-content">
+          <style>
+            .about-content table td a {
+              text-decoration: none;
+              transition: all 0.2s ease;
+              font-weight: 600;
+              cursor: pointer !important;
+              display: inline-block;
+              position: relative;
+              z-index: 10;
+              pointer-events: auto !important;
+            }
+            .about-content table td a:hover {
+              text-decoration: underline;
+              text-decoration-thickness: 2px;
+              text-underline-offset: 3px;
+              color: var(--link-color);
+            }
+            .about-content table td a:active,
+            .about-content table td a:focus {
+              color: var(--link-color);
+              outline: 2px solid var(--link-color);
+              outline-offset: 2px;
+            }
+            .about-content table td a strong {
+              font-weight: 700;
+              color: inherit;
+            }
+            .about-content table td {
+              position: relative;
+            }
+            .about-content table {
+              border-collapse: collapse;
+            }
+          </style>
+          {{ .Content }}
+        </div>
+      </article>
+    </section>
+  {{ else }}
+    {{ partial "page.html" . }}
+  {{ end }}
+  {{ partial "posts/math.html" . }}
+{{ end }}

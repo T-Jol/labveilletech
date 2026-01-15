@@ -1,0 +1,51 @@
+baseURL = 'https://example.org/'
+languageCode = 'fr-fr'
+defaultContentLanguage = 'fr'
+title = 'Accueil'
+theme = 'Coder'
+
+tags = [
+  "blog",
+  "minimal",
+  "minimalist",
+  "responsive",
+  "simple",
+  "clean",
+  "personal",
+  "light",
+  "dark",
+  "dark mode"
+]
+features = [
+  "analytics",
+  "favicon",
+  "multilingual",
+  "pagination",
+  "single-column",
+  "syntax-highlighting"
+]
+min_version = "0.124.0"
+
+[author]
+name = "Thibaud"
+homepage = ""
+
+[params]
+  author = "Thibaud"
+  info = "LabVeilleTech"
+  colorScheme = "auto"
+  dateFormat = "2 janvier 2006"
+
+[languages.fr]
+languageName = "Français"
+weight = 1
+
+[[menu.main]]
+name = "Articles"
+weight = 1
+url = "posts/"
+
+[[menu.main]]
+name = "À propos"
+weight = 2
+url = "about/"

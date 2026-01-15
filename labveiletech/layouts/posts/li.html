@@ -1,0 +1,49 @@
+<li class="post-item{{ if eq .Params.articleType "formation" }} post-item-formation{{ end }}" style="margin: 2rem 0; border-bottom: 1px solid var(--alt-bg-color); border-radius: 8px; overflow: hidden;{{ if eq .Params.articleType "formation" }} border-left: 4px solid var(--link-color); background-color: var(--alt-bg-color);{{ end }}">
+  <a href="{{ .RelPermalink }}" style="display: block; padding: 2rem; text-decoration: none; color: inherit; transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;">
+    <style>
+      .post-item a:hover {
+        transform: scale(1.02);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        background-color: var(--alt-bg-color);
+      }
+      .post-item-formation a:hover {
+        background-color: var(--alt-bg-color);
+        box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+      }
+      .post-item a:hover .title {
+        color: var(--link-color);
+      }
+    </style>
+    {{ if eq .Params.articleType "formation" }}
+    <div style="margin-bottom: 1rem;">
+      <span style="font-size: 1.2rem; padding: 0.4rem 1rem; background-color: var(--link-color); color: var(--bg-color); border-radius: 0.6rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">
+        Méthodologie
+      </span>
+    </div>
+    {{ end }}
+    <div style="display: flex; align-items: flex-start; flex-wrap: wrap;">
+      <span class="date" style="display: inline-block; flex: 1; width: 20rem; text-align: right; margin-right: 3rem; font-size: 1.6rem; color: var(--fg-color); font-weight: 500;">
+        {{ .Date | time.Format (.Site.Params.dateFormat | default "2 janvier 2006" ) }}
+      </span>
+      <div style="flex: 2; min-width: 0;">
+        <div class="title" style="font-size: 1.9rem; font-weight: 700; color: var(--fg-color); line-height: 1.4; margin-bottom: 0.5rem; transition: color 0.2s;">
+          {{ .Title }}
+        </div>
+        {{ if .Description }}
+        <div style="margin-top: 1rem; color: var(--fg-color); line-height: 1.7; font-size: 1.6rem; opacity: 0.85;">
+          {{ .Description }}
+        </div>
+        {{ end }}
+        {{ if or .Params.categories .Params.tags }}
+        <div style="display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 1.2rem;">
+          {{ range .Params.categories }}
+          <span style="font-size: 1.4rem; padding: 0.4rem 0.8rem; background-color: var(--alt-bg-color); border-radius: 0.6rem; color: var(--fg-color); line-height: 1.5em; font-weight: 500;">
+            {{ . }}
+          </span>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </a>
+</li>
