@@ -47,6 +47,22 @@
             .about-content table {
               border-collapse: collapse;
             }
+            .about-content img {
+              max-width: 100%;
+              width: auto;
+              height: auto;
+              max-width: 600px;
+              display: block;
+              margin: 2rem auto;
+              border-radius: 8px;
+              box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            }
+            @media only screen and (max-width: 768px) {
+              .about-content img {
+                max-width: 100%;
+                margin: 1.5rem auto;
+              }
+            }
           </style>
           {{ .Content }}
         </div>

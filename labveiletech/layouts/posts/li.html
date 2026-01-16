@@ -1,4 +1,4 @@
-<li class="post-item{{ if eq .Params.articleType "formation" }} post-item-formation{{ end }}" style="margin: 2rem 0; border-bottom: 1px solid var(--alt-bg-color); border-radius: 8px; overflow: hidden;{{ if eq .Params.articleType "formation" }} border-left: 4px solid var(--link-color); background-color: var(--alt-bg-color);{{ end }}">
+<li class="post-item{{ if eq .Params.articleType "formation" }} post-item-formation{{ end }}{{ range .Params.categories }} category-{{ . | urlize }}{{ end }}" data-categories="{{ range .Params.categories }}{{ . | urlize }} {{ end }}" style="margin: 2rem 0; border-bottom: 1px solid var(--alt-bg-color); border-radius: 8px; overflow: hidden;{{ if eq .Params.articleType "formation" }} border-left: 4px solid var(--link-color); background-color: var(--alt-bg-color);{{ end }}">
   <a href="{{ .RelPermalink }}" style="display: block; padding: 2rem; text-decoration: none; color: inherit; transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;">
     <style>
       .post-item a:hover {

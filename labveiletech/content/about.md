@@ -46,7 +46,19 @@ Ma veille est structurée autour de 7 sous-domaines (taxonomies) qui représente
 
 ---
 
-## 4. Choix Techniques : Pourquoi Hugo ?
+## 4. Mes Outils de Veille
+
+J'ai un compte **Twitter (X)** et **Instagram** spécifiquement pour la recherche et la découverte de contenu lié à mon domaine. Ces réseaux sociaux me permettent de suivre les tendances en temps réel, d'identifier les experts du secteur et de découvrir des ressources précieuses.
+
+J'utilise également **Feedly** pour centraliser et organiser ma veille. Cette plateforme me permet de suivre systématiquement les sources les plus pertinentes pour mes 7 piliers de veille, de créer des flux thématiques et de ne rien manquer des publications importantes.
+
+![Interface Feedly - Liste des catégories](/images/feedly-categories.jpg)
+
+![Interface Feedly - Articles par catégorie](/images/feedly-articles.jpg)
+
+---
+
+## 5. Choix Techniques : Pourquoi Hugo ?
 
 Pour réaliser ce blog de veille, j'ai fait le choix d'utiliser un **Générateur de Site Statique (SSG)** : **Hugo**.
 
