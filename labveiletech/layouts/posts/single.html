@@ -1,0 +1,51 @@
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "content" }}
+  <section class="container post">
+    <article>
+      <header style="margin-top: 6.4rem; margin-bottom: 3.2rem;">
+        <div class="post-title" style="margin-bottom: 0.75em;">
+          <h1 class="title" style="font-size: 4.2rem; line-height: 4.6rem; margin: 0;">
+            <a class="title-link" href="{{ .Permalink | safeURL }}" style="color: inherit; text-decoration: none;">
+              {{ .Title }}
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta" style="display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: center; padding-bottom: 1.5rem; border-bottom: 1px solid var(--alt-bg-color);">
+          {{ if .Params.date }}
+          <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" style="font-size: 1.4rem; color: var(--fg-color); opacity: 0.7;">
+            {{ .Date | time.Format (.Site.Params.dateFormat | default "2 janvier 2006") }}
+          </time>
+          {{ end }}
+          {{ if .Params.categories }}
+          <div style="display: flex; flex-wrap: wrap; gap: 0.8rem;">
+            {{ range .Params.categories }}
+            <a href="{{ "/categories/" | relURL }}{{ . | urlize }}/" style="font-size: 1.4rem; padding: 0.4rem 0.9rem; background-color: var(--alt-bg-color); border-radius: 0.4rem; color: var(--fg-color); text-decoration: none; transition: all 0.2s;">
+              {{ . }}
+            </a>
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
+      </header>
+      <div class="post-content" style="font-size: 1.8rem; line-height: 1.8em; color: var(--fg-color);">
+        {{ .Content }}
+      </div>
+      {{ if or .Params.tags .Params.categories }}
+      <footer style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--alt-bg-color);">
+        {{ if .Params.tags }}
+        <div style="margin-bottom: 1.5rem;">
+          <span style="font-size: 1.4rem; font-weight: 600; color: var(--fg-color); margin-right: 1rem;">Tags:</span>
+          {{ range .Params.tags }}
+          <a href="{{ "/tags/" | relURL }}{{ . | urlize }}/" style="font-size: 1.4rem; padding: 0.4rem 0.9rem; background-color: var(--alt-bg-color); border-radius: 0.4rem; color: var(--fg-color); text-decoration: none; margin-right: 0.8rem; transition: all 0.2s;">
+            {{ . }}
+          </a>
+          {{ end }}
+        </div>
+        {{ end }}
+      </footer>
+      {{ end }}
+    </article>
+  </section>
+{{ end }}
