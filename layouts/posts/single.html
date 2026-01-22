@@ -5,6 +5,20 @@
   <section class="container post">
     <article>
       <header style="margin-top: 6.4rem; margin-bottom: 3.2rem;">
+        <div style="margin-bottom: 2rem;">
+          <a href="{{ "/posts/" | relURL }}" class="back-to-posts-btn" style="display: inline-flex; align-items: center; gap: 0.8rem; padding: 0.8rem 1.6rem; font-size: 1.5rem; font-weight: 500; color: var(--fg-color); background-color: var(--alt-bg-color); border: 1px solid var(--alt-bg-color); border-radius: 0.6rem; text-decoration: none; transition: all 0.3s ease;">
+            <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
+            <span>Retour aux articles</span>
+          </a>
+          <style>
+            .back-to-posts-btn:hover {
+              background-color: var(--link-color);
+              color: var(--bg-color);
+              border-color: var(--link-color);
+              transform: translateX(-2px);
+            }
+          </style>
+        </div>
         <div class="post-title" style="margin-bottom: 0.75em;">
           <h1 class="title" style="font-size: 4.2rem; line-height: 4.6rem; margin: 0;">
             <a class="title-link" href="{{ .Permalink | safeURL }}" style="color: inherit; text-decoration: none;">
