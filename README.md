@@ -4,6 +4,8 @@
 
 Blog statique documentant l'exploration continue à l'intersection du marketing data-driven, de l'intelligence artificielle, de l'automatisation et de l'optimisation publicitaire/web.
 
+🌐 **Site en ligne :** [https://t-jol.github.io/labveilletech/](https://t-jol.github.io/labveilletech/)
+
 ## À propos
 
 **LabVeiltech** est un blog de veille technologique structuré autour de 7 piliers (taxonomies) qui représentent les leviers majeurs de la croissance moderne :
@@ -32,7 +34,8 @@ Ce projet a été développé dans le cadre d'un cours de veille technologique (
 - **Thème Coder** - Thème minimaliste et responsive
 - **Markdown** - Rédaction des articles
 - **Git** - Version control
-- **GitHub** - Hébergement du code source
+- **GitHub** - Hébergement du code source et déploiement via GitHub Pages
+- **GitHub Actions** - CI/CD pour le déploiement automatique
 
 ## Installation et lancement
 
@@ -73,6 +76,17 @@ hugo
 
 Les fichiers générés seront dans le dossier `public/`.
 
+### Déploiement
+
+Le site est automatiquement déployé sur **GitHub Pages** via GitHub Actions à chaque push sur la branche `main`.
+
+Le workflow GitHub Actions :
+1. Déclenchement automatique lors d'un push sur `main`
+2. Build du site avec Hugo
+3. Déploiement sur `https://t-jol.github.io/labveilletech/`
+
+Le site est accessible à l'adresse : [https://t-jol.github.io/labveilletech/](https://t-jol.github.io/labveilletech/)
+
 ## Structure du projet
 
 ```
@@ -98,9 +112,15 @@ labveiletech/
 
 - **Articles réguliers** : Résumés d'informations dénichées sur le Growth Marketing
 - **Articles personnels** : Articles méthodologiques avec badge "Taxonomie" ou "Méthodologie"
+  - Layout deux colonnes pour les articles personnels
+  - Bannières d'images en haut des cartes (support via paramètre `bannerImage`)
 - **Filtrage par catégorie** : Système de filtres multiples sur la page `/posts`
+  - Filtres par catégorie avec sélection multiple
+  - Affichage des filtres actifs
+  - Animation fade-in/fade-out lors du filtrage
 - **Charger plus d'articles** : Affichage progressif (2 articles initialement)
 - **Lien externe** : Chaque article peut inclure un lien vers la source originale
+- **Design uniforme** : Cartes avec style minimaliste et cohérent sur toute la page
 
 ### Navigation
 
@@ -115,6 +135,10 @@ labveiletech/
 - **Mode sombre/clair** : Adaptation automatique selon les préférences système
 - **Design responsive** : Optimisé pour mobile, tablette et desktop
 - **Animations** : Effets de survol sur les articles et boutons
+  - Hover avec élévation subtile (`translateY(-4px)`)
+  - Zoom sur les bannières d'images au survol
+  - Transitions fluides avec `cubic-bezier`
+- **Design minimaliste** : Cartes uniformes avec bordures subtiles et espacements cohérents
 - **Accessibilité** : Structure sémantique et navigation clavier
 
 ## Créer un nouvel article
@@ -133,6 +157,7 @@ tags = ["Tag1", "Tag2"]
 externalLink = "https://lien-externe.com"  # Optionnel
 articleType = "formation"  # Optionnel, pour articles personnels
 badgeLabel = "Taxonomie"   # Optionnel, label du badge
+bannerImage = "/images/nom-image.jpg"  # Optionnel, bannière en haut de la carte
 +++
 ```
 
@@ -182,11 +207,33 @@ Ce projet est un travail académique, mais les suggestions d'amélioration sont 
 
 Ce projet est un travail académique. Le thème [Coder](https://github.com/luizdepra/hugo-coder) est sous licence MIT.
 
+## Développement
+
+### Étapes de développement
+
+1. **Initialisation du projet Hugo** avec le thème Coder
+2. **Personnalisation des templates** :
+   - Création de templates personnalisés pour les articles (`layouts/posts/`)
+   - Amélioration de l'UX/UI avec design minimaliste et uniforme
+   - Implémentation du système de filtrage par catégorie
+3. **Optimisation des images** : Conversion PNG vers JPEG pour améliorer les performances
+4. **Configuration GitHub Pages** : Déploiement automatique via GitHub Actions
+5. **Refactorisation du design** : Uniformisation des cartes d'articles avec bannières d'images
+6. **Amélioration de l'espacement** : Uniformisation des espacements pour une meilleure lisibilité
+
+### Workflow de développement
+
+1. Développement local avec `hugo serve -F`
+2. Tests et ajustements
+3. Commit et push sur GitHub
+4. Déploiement automatique via GitHub Actions
+5. Site mis à jour sur GitHub Pages
+
 ## Auteur
 
 **Thibaud J - M52-1**
 
-- Site : LabVeiltech
+- Site : [LabVeiltech](https://t-jol.github.io/labveilletech/)
 - GitHub : [@T-Jol](https://github.com/T-Jol)
 
 ---
