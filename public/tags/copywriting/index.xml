@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Copywriting on Accueil</title>
+    <link>http://localhost:1313/tags/copywriting/</link>
+    <description>Recent content in Copywriting on Accueil</description>
+    <generator>Hugo</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 21 Jan 2026 10:00:00 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/copywriting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Marketing Skills for Claude Code</title>
+      <link>http://localhost:1313/posts/marketing-skills-claude-code/</link>
+      <pubDate>Wed, 21 Jan 2026 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/posts/marketing-skills-claude-code/</guid>
+      <description>&lt;h2 id=&#34;sujet-principal&#34;&gt;&#xA;  Sujet Principal&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#sujet-principal&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Corey Haines a créé une collection open-source de 24 compétences (skills) pour agents IA, spécialement conçues pour les marketeurs techniques et fondateurs qui utilisent Claude Code (ou assistants IA similaires). Ces skills sont des fichiers markdown qui donnent aux agents IA des connaissances spécialisées et des workflows pour des tâches marketing spécifiques : optimisation de conversion, copywriting, SEO, analytics et growth engineering. Le projet permet à Claude Code de reconnaître automatiquement les tâches marketing et d&amp;rsquo;appliquer les bons frameworks et meilleures pratiques.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

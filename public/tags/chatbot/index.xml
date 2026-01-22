@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chatbot on Accueil</title>
+    <link>http://localhost:1313/tags/chatbot/</link>
+    <description>Recent content in Chatbot on Accueil</description>
+    <generator>Hugo</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Thu, 15 Jan 2026 10:00:00 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/chatbot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inside Google&#39;s push to blend AI chat and online shopping</title>
+      <link>http://localhost:1313/posts/google-ai-chat-shopping/</link>
+      <pubDate>Thu, 15 Jan 2026 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/posts/google-ai-chat-shopping/</guid>
+      <description>&lt;h2 id=&#34;sujet-principal&#34;&gt;&#xA;  Sujet Principal&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#sujet-principal&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Google transforme son moteur de recherche et ses systèmes publicitaires pour fusionner le chat IA et le shopping en ligne. L&amp;rsquo;objectif est de permettre aux utilisateurs de passer de la recherche à l&amp;rsquo;achat sans jamais quitter la conversation IA, éliminant ainsi le besoin de cliquer sur des liens vers des sites externes.&lt;/p&gt;&#xA;&lt;h2 id=&#34;points-clés&#34;&gt;&#xA;  Points Clés&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#points-cl%c3%a9s&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-le-universal-commerce-protocol&#34;&gt;&#xA;  1. Le &amp;ldquo;Universal Commerce Protocol&amp;rdquo;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#1-le-universal-commerce-protocol&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Google déploie ce protocole pour permettre aux détaillants de proposer la découverte de produits, la comparaison et l&amp;rsquo;achat directement dans l&amp;rsquo;interface de chat (AI Mode).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

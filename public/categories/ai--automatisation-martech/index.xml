@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI &amp; Automatisation (MarTech) on Accueil</title>
+    <link>http://localhost:1313/categories/ai--automatisation-martech/</link>
+    <description>Recent content in AI &amp; Automatisation (MarTech) on Accueil</description>
+    <generator>Hugo</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 21 Jan 2026 10:00:00 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/ai--automatisation-martech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Marketing Skills for Claude Code</title>
+      <link>http://localhost:1313/posts/marketing-skills-claude-code/</link>
+      <pubDate>Wed, 21 Jan 2026 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/posts/marketing-skills-claude-code/</guid>
+      <description>&lt;h2 id=&#34;sujet-principal&#34;&gt;&#xA;  Sujet Principal&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#sujet-principal&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Corey Haines a créé une collection open-source de 24 compétences (skills) pour agents IA, spécialement conçues pour les marketeurs techniques et fondateurs qui utilisent Claude Code (ou assistants IA similaires). Ces skills sont des fichiers markdown qui donnent aux agents IA des connaissances spécialisées et des workflows pour des tâches marketing spécifiques : optimisation de conversion, copywriting, SEO, analytics et growth engineering. Le projet permet à Claude Code de reconnaître automatiquement les tâches marketing et d&amp;rsquo;appliquer les bons frameworks et meilleures pratiques.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Lovable System After 45&#43; MVPs</title>
+      <link>http://localhost:1313/posts/lovable-system-45-mvps/</link>
+      <pubDate>Tue, 20 Jan 2026 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/posts/lovable-system-45-mvps/</guid>
+      <description>&lt;h2 id=&#34;sujet-principal&#34;&gt;&#xA;  Sujet Principal&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#sujet-principal&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Après avoir livré 45+ MVPs avec Lovable, Prajwal Tomar partage son système complet pour transformer cet outil d&amp;rsquo;un simple prototypeur en une plateforme de développement IA complète. L&amp;rsquo;article détaille les erreurs courantes, un workflow en 5 étapes, et les fonctionnalités avancées (Connectors, Lovable Cloud, MCP) qui permettent de construire et déployer des SaaS en production sans quitter l&amp;rsquo;outil.&lt;/p&gt;&#xA;&lt;h2 id=&#34;points-clés&#34;&gt;&#xA;  Points Clés&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#points-cl%c3%a9s&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-lovable-nest-plus-un-outil-de-prototypage&#34;&gt;&#xA;  1. Lovable n&amp;rsquo;est plus un outil de prototypage&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#1-lovable-nest-plus-un-outil-de-prototypage&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Lovable a évolué en plateforme de développement IA complète avec :&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transformer l&#39;IA en tuteur personnel : ma méthode d&#39;apprentissage accéléré</title>
+      <link>http://localhost:1313/posts/llm-apprentissage-accelere/</link>
+      <pubDate>Fri, 16 Jan 2026 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/posts/llm-apprentissage-accelere/</guid>
+      <description>&lt;p&gt;Dans le domaine du Growth et de l&amp;rsquo;Optimisation, la quantité de compétences à maîtriser est vertigineuse. Entre la rigueur statistique du &lt;strong&gt;Media Mix Modeling (MMM)&lt;/strong&gt;, la psychologie subtile des &lt;strong&gt;Biais Cognitifs&lt;/strong&gt; et la créativité pure des &lt;strong&gt;Meta Ads&lt;/strong&gt;, il est impossible d&amp;rsquo;être un expert partout, tout de suite.&lt;/p&gt;&#xA;&lt;p&gt;C&amp;rsquo;est là que les LLM (Large Language Models) comme ChatGPT-4, Claude 3 ou Perplexity changent la donne. Je ne les utilise pas seulement pour &lt;em&gt;produire&lt;/em&gt; du contenu, mais surtout pour &lt;strong&gt;apprendre&lt;/strong&gt; plus vite.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Inside Google&#39;s push to blend AI chat and online shopping</title>
+      <link>http://localhost:1313/posts/google-ai-chat-shopping/</link>
+      <pubDate>Thu, 15 Jan 2026 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/posts/google-ai-chat-shopping/</guid>
+      <description>&lt;h2 id=&#34;sujet-principal&#34;&gt;&#xA;  Sujet Principal&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#sujet-principal&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Google transforme son moteur de recherche et ses systèmes publicitaires pour fusionner le chat IA et le shopping en ligne. L&amp;rsquo;objectif est de permettre aux utilisateurs de passer de la recherche à l&amp;rsquo;achat sans jamais quitter la conversation IA, éliminant ainsi le besoin de cliquer sur des liens vers des sites externes.&lt;/p&gt;&#xA;&lt;h2 id=&#34;points-clés&#34;&gt;&#xA;  Points Clés&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#points-cl%c3%a9s&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-le-universal-commerce-protocol&#34;&gt;&#xA;  1. Le &amp;ldquo;Universal Commerce Protocol&amp;rdquo;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#1-le-universal-commerce-protocol&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Google déploie ce protocole pour permettre aux détaillants de proposer la découverte de produits, la comparaison et l&amp;rsquo;achat directement dans l&amp;rsquo;interface de chat (AI Mode).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>L&#39;intelligence Artificielle dans les campagnes Marketing</title>
+      <link>http://localhost:1313/posts/ia-campagnes-marketing-2026/</link>
+      <pubDate>Tue, 13 Jan 2026 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/posts/ia-campagnes-marketing-2026/</guid>
+      <description>&lt;h2 id=&#34;sujet-principal&#34;&gt;&#xA;  Sujet Principal&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#sujet-principal&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;En 2026, l&amp;rsquo;IA ne sert plus simplement à automatiser des tâches isolées, mais devient le système d&amp;rsquo;exploitation central du marketing. L&amp;rsquo;article explique comment passer d&amp;rsquo;un marketing traditionnel (statique et manuel) à un marketing piloté par l&amp;rsquo;IA (adaptatif, prédictif et en temps réel), tout en soulignant que la qualité des données est la condition sine qua non de la réussite.&lt;/p&gt;&#xA;&lt;h2 id=&#34;concepts-clés&#34;&gt;&#xA;  Concepts Clés&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#concepts-cl%c3%a9s&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-marketing-traditionnel-vs-marketing-ia&#34;&gt;&#xA;  1. Marketing Traditionnel vs Marketing IA&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#1-marketing-traditionnel-vs-marketing-ia&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;L&amp;rsquo;article établit une distinction nette :&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

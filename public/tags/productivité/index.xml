@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Productivité on Accueil</title>
+    <link>http://localhost:1313/tags/productivit%C3%A9/</link>
+    <description>Recent content in Productivité on Accueil</description>
+    <generator>Hugo</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 21 Jan 2026 10:00:00 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/productivit%C3%A9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Marketing Skills for Claude Code</title>
+      <link>http://localhost:1313/posts/marketing-skills-claude-code/</link>
+      <pubDate>Wed, 21 Jan 2026 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/posts/marketing-skills-claude-code/</guid>
+      <description>&lt;h2 id=&#34;sujet-principal&#34;&gt;&#xA;  Sujet Principal&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#sujet-principal&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Corey Haines a créé une collection open-source de 24 compétences (skills) pour agents IA, spécialement conçues pour les marketeurs techniques et fondateurs qui utilisent Claude Code (ou assistants IA similaires). Ces skills sont des fichiers markdown qui donnent aux agents IA des connaissances spécialisées et des workflows pour des tâches marketing spécifiques : optimisation de conversion, copywriting, SEO, analytics et growth engineering. Le projet permet à Claude Code de reconnaître automatiquement les tâches marketing et d&amp;rsquo;appliquer les bons frameworks et meilleures pratiques.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Lovable System After 45&#43; MVPs</title>
+      <link>http://localhost:1313/posts/lovable-system-45-mvps/</link>
+      <pubDate>Tue, 20 Jan 2026 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/posts/lovable-system-45-mvps/</guid>
+      <description>&lt;h2 id=&#34;sujet-principal&#34;&gt;&#xA;  Sujet Principal&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#sujet-principal&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Après avoir livré 45+ MVPs avec Lovable, Prajwal Tomar partage son système complet pour transformer cet outil d&amp;rsquo;un simple prototypeur en une plateforme de développement IA complète. L&amp;rsquo;article détaille les erreurs courantes, un workflow en 5 étapes, et les fonctionnalités avancées (Connectors, Lovable Cloud, MCP) qui permettent de construire et déployer des SaaS en production sans quitter l&amp;rsquo;outil.&lt;/p&gt;&#xA;&lt;h2 id=&#34;points-clés&#34;&gt;&#xA;  Points Clés&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#points-cl%c3%a9s&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-lovable-nest-plus-un-outil-de-prototypage&#34;&gt;&#xA;  1. Lovable n&amp;rsquo;est plus un outil de prototypage&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#1-lovable-nest-plus-un-outil-de-prototypage&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Lovable a évolué en plateforme de développement IA complète avec :&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transformer l&#39;IA en tuteur personnel : ma méthode d&#39;apprentissage accéléré</title>
+      <link>http://localhost:1313/posts/llm-apprentissage-accelere/</link>
+      <pubDate>Fri, 16 Jan 2026 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/posts/llm-apprentissage-accelere/</guid>
+      <description>&lt;p&gt;Dans le domaine du Growth et de l&amp;rsquo;Optimisation, la quantité de compétences à maîtriser est vertigineuse. Entre la rigueur statistique du &lt;strong&gt;Media Mix Modeling (MMM)&lt;/strong&gt;, la psychologie subtile des &lt;strong&gt;Biais Cognitifs&lt;/strong&gt; et la créativité pure des &lt;strong&gt;Meta Ads&lt;/strong&gt;, il est impossible d&amp;rsquo;être un expert partout, tout de suite.&lt;/p&gt;&#xA;&lt;p&gt;C&amp;rsquo;est là que les LLM (Large Language Models) comme ChatGPT-4, Claude 3 ou Perplexity changent la donne. Je ne les utilise pas seulement pour &lt;em&gt;produire&lt;/em&gt; du contenu, mais surtout pour &lt;strong&gt;apprendre&lt;/strong&gt; plus vite.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
