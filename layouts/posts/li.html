@@ -27,7 +27,13 @@
     <!-- Bannière image -->
     {{ if .Params.bannerImage }}
     <div style="width: 100%; height: 220px; overflow: hidden; background-color: var(--alt-bg-color); flex-shrink: 0;">
-      <img src="{{ .Params.bannerImage | relURL }}" alt="{{ .Title }}" class="post-item-banner" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+      {{ $bannerPath := .Params.bannerImage }}
+      {{ if hasPrefix $bannerPath "/" }}
+        {{ $bannerPath = printf "%s%s" (strings.TrimSuffix "/" .Site.BaseURL) $bannerPath }}
+      {{ else }}
+        {{ $bannerPath = printf "%s/%s" (strings.TrimSuffix "/" .Site.BaseURL) $bannerPath }}
+      {{ end }}
+      <img src="{{ $bannerPath }}" alt="{{ .Title }}" class="post-item-banner" style="width: 100%; height: 100%; object-fit: cover; display: block;">
     </div>
     {{ end }}
     
