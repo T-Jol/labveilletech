@@ -29,9 +29,9 @@
     <div style="width: 100%; height: 220px; overflow: hidden; background-color: var(--alt-bg-color); flex-shrink: 0;">
       {{ $bannerPath := .Params.bannerImage }}
       {{ if hasPrefix $bannerPath "/" }}
-        {{ $bannerPath = printf "%s%s" (strings.TrimSuffix "/" .Site.BaseURL) $bannerPath }}
+        {{ $bannerPath = $bannerPath | absURL }}
       {{ else }}
-        {{ $bannerPath = printf "%s/%s" (strings.TrimSuffix "/" .Site.BaseURL) $bannerPath }}
+        {{ $bannerPath = (printf "/%s" $bannerPath) | absURL }}
       {{ end }}
       <img src="{{ $bannerPath }}" alt="{{ .Title }}" class="post-item-banner" style="width: 100%; height: 100%; object-fit: cover; display: block;">
     </div>
