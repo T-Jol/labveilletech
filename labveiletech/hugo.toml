@@ -27,12 +27,12 @@ features = [
 min_version = "0.124.0"
 
 [author]
-name = "Thibaud"
+name = "Thibaud J - M52-1"
 homepage = ""
 
 [params]
-  author = "Thibaud"
-  info = "LabVeilleTech"
+  author = "Thibaud J - M52-1"
+  info = "LabVeiltech"
   colorScheme = "auto"
   dateFormat = "2 janvier 2006"
 

@@ -17,7 +17,7 @@
     {{ if eq .Params.articleType "formation" }}
     <div style="margin-bottom: 1rem;">
       <span style="font-size: 1.2rem; padding: 0.4rem 1rem; background-color: var(--link-color); color: var(--bg-color); border-radius: 0.6rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">
-        Méthodologie
+        {{ if .Params.badgeLabel }}{{ .Params.badgeLabel }}{{ else }}Méthodologie{{ end }}
       </span>
     </div>
     {{ end }}
