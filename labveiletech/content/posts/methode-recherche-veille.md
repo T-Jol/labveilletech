@@ -25,10 +25,6 @@ J'ai un compte **Twitter (X)** spécifiquement dédié à la recherche et à la 
 
 Voici quelques exemples de comptes que je suis pour alimenter ma veille :
 
-![Compte Twitter - Expert Growth Marketing](/images/x-account-1.jpg)
-
-![Compte Twitter - Expert Data & Analytics](/images/x-account-2.jpg)
-
 ![Compte Twitter - Expert IA & MarTech](/images/x-account-3.jpg)
 
 ![Compte Twitter - Expert CRO & UX](/images/x-account-4.jpg)
