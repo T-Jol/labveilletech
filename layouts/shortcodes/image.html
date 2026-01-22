@@ -1,0 +1,12 @@
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" | default "" }}
+{{ $class := .Get "class" | default "" }}
+{{ $style := .Get "style" | default "" }}
+
+{{ if hasPrefix $src "/" }}
+  {{ $src = $src | relURL }}
+{{ else }}
+  {{ $src = (printf "/%s" $src) | relURL }}
+{{ end }}
+
+<img src="{{ $src }}" alt="{{ $alt }}"{{ if $class }} class="{{ $class }}"{{ end }}{{ if $style }} style="{{ $style }}"{{ end }}>

@@ -1,0 +1,16 @@
+{{- $src := .Destination -}}
+{{- $alt := .Text -}}
+{{- $title := .Title -}}
+
+{{- if hasPrefix $src "/" -}}
+  {{- $src = $src | relURL -}}
+{{- else -}}
+  {{- $src = (printf "/%s" $src) | relURL -}}
+{{- end -}}
+
+<figure{{ if $title }} class="image-figure"{{ end }}>
+  <img src="{{ $src }}" alt="{{ $alt }}"{{ if $title }} title="{{ $title }}"{{ end }}>
+  {{- if $title -}}
+  <figcaption>{{ $title }}</figcaption>
+  {{- end -}}
+</figure>
